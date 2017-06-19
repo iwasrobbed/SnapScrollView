@@ -1,0 +1,6 @@
+framework module Pods_SnapScrollView {
+  umbrella header "Pods-SnapScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

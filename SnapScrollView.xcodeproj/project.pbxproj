@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D407BD411EF83B1B00EF9D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407BD401EF83B1B00EF9D03 /* AppDelegate.swift */; };
+		D407BD431EF83B1B00EF9D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407BD421EF83B1B00EF9D03 /* ViewController.swift */; };
+		D407BD481EF83B1B00EF9D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D407BD471EF83B1B00EF9D03 /* Assets.xcassets */; };
+		D407BD4B1EF83B1B00EF9D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D407BD491EF83B1B00EF9D03 /* LaunchScreen.storyboard */; };
+		D407BD531EF83B2E00EF9D03 /* OffsetableScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407BD521EF83B2E00EF9D03 /* OffsetableScrollingView.swift */; };
+		D407BD551EF83B4C00EF9D03 /* UIScrollView+ChefBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407BD541EF83B4C00EF9D03 /* UIScrollView+ChefBrain.swift */; };
+		D407BD571EF83B8700EF9D03 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407BD561EF83B8700EF9D03 /* CollectionView.swift */; };
+		D407BD591EF83BFE00EF9D03 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407BD581EF83BFE00EF9D03 /* CollectionViewCell.swift */; };
+		FF051B6D6FB6EA701FB732C0 /* Pods_SnapScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA73E047D46F6555B576C507 /* Pods_SnapScrollView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1992A5F981279EBDE489B815 /* Pods-SnapScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapScrollView/Pods-SnapScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		644D3ED35B60BF048DDCDAA3 /* Pods-SnapScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapScrollView/Pods-SnapScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		CA73E047D46F6555B576C507 /* Pods_SnapScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D407BD3D1EF83B1B00EF9D03 /* SnapScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D407BD401EF83B1B00EF9D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D407BD421EF83B1B00EF9D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D407BD471EF83B1B00EF9D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D407BD4A1EF83B1B00EF9D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D407BD4C1EF83B1B00EF9D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D407BD521EF83B2E00EF9D03 /* OffsetableScrollingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetableScrollingView.swift; sourceTree = "<group>"; };
+		D407BD541EF83B4C00EF9D03 /* UIScrollView+ChefBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ChefBrain.swift"; sourceTree = "<group>"; };
+		D407BD561EF83B8700EF9D03 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		D407BD581EF83BFE00EF9D03 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D407BD3A1EF83B1B00EF9D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF051B6D6FB6EA701FB732C0 /* Pods_SnapScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DB8075F4C18C6C746D481E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				644D3ED35B60BF048DDCDAA3 /* Pods-SnapScrollView.debug.xcconfig */,
+				1992A5F981279EBDE489B815 /* Pods-SnapScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D407BD341EF83B1B00EF9D03 = {
+			isa = PBXGroup;
+			children = (
+				D407BD3F1EF83B1B00EF9D03 /* SnapScrollView */,
+				D407BD3E1EF83B1B00EF9D03 /* Products */,
+				52DB8075F4C18C6C746D481E /* Pods */,
+				E137D23F1322E1222E9C33C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D407BD3E1EF83B1B00EF9D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D407BD3D1EF83B1B00EF9D03 /* SnapScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D407BD3F1EF83B1B00EF9D03 /* SnapScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D407BD401EF83B1B00EF9D03 /* AppDelegate.swift */,
+				D407BD471EF83B1B00EF9D03 /* Assets.xcassets */,
+				D407BD561EF83B8700EF9D03 /* CollectionView.swift */,
+				D407BD581EF83BFE00EF9D03 /* CollectionViewCell.swift */,
+				D407BD4C1EF83B1B00EF9D03 /* Info.plist */,
+				D407BD491EF83B1B00EF9D03 /* LaunchScreen.storyboard */,
+				D407BD521EF83B2E00EF9D03 /* OffsetableScrollingView.swift */,
+				D407BD541EF83B4C00EF9D03 /* UIScrollView+ChefBrain.swift */,
+				D407BD421EF83B1B00EF9D03 /* ViewController.swift */,
+			);
+			path = SnapScrollView;
+			sourceTree = "<group>";
+		};
+		E137D23F1322E1222E9C33C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA73E047D46F6555B576C507 /* Pods_SnapScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D407BD3C1EF83B1B00EF9D03 /* SnapScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D407BD4F1EF83B1B00EF9D03 /* Build configuration list for PBXNativeTarget "SnapScrollView" */;
+			buildPhases = (
+				1CBAF0CC8696FB80DAAAD678 /* [CP] Check Pods Manifest.lock */,
+				D407BD391EF83B1B00EF9D03 /* Sources */,
+				D407BD3A1EF83B1B00EF9D03 /* Frameworks */,
+				D407BD3B1EF83B1B00EF9D03 /* Resources */,
+				B5E846D1B31A386BC71147F1 /* [CP] Embed Pods Frameworks */,
+				F51788BEBDFCE8C67A1FEB94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapScrollView;
+			productName = SnapScrollView;
+			productReference = D407BD3D1EF83B1B00EF9D03 /* SnapScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D407BD351EF83B1B00EF9D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ChefBrain Inc.";
+				TargetAttributes = {
+					D407BD3C1EF83B1B00EF9D03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D407BD381EF83B1B00EF9D03 /* Build configuration list for PBXProject "SnapScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D407BD341EF83B1B00EF9D03;
+			productRefGroup = D407BD3E1EF83B1B00EF9D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D407BD3C1EF83B1B00EF9D03 /* SnapScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D407BD3B1EF83B1B00EF9D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D407BD4B1EF83B1B00EF9D03 /* LaunchScreen.storyboard in Resources */,
+				D407BD481EF83B1B00EF9D03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBAF0CC8696FB80DAAAD678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E846D1B31A386BC71147F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapScrollView/Pods-SnapScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51788BEBDFCE8C67A1FEB94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapScrollView/Pods-SnapScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D407BD391EF83B1B00EF9D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D407BD551EF83B4C00EF9D03 /* UIScrollView+ChefBrain.swift in Sources */,
+				D407BD571EF83B8700EF9D03 /* CollectionView.swift in Sources */,
+				D407BD591EF83BFE00EF9D03 /* CollectionViewCell.swift in Sources */,
+				D407BD431EF83B1B00EF9D03 /* ViewController.swift in Sources */,
+				D407BD411EF83B1B00EF9D03 /* AppDelegate.swift in Sources */,
+				D407BD531EF83B2E00EF9D03 /* OffsetableScrollingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D407BD491EF83B1B00EF9D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D407BD4A1EF83B1B00EF9D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D407BD4D1EF83B1B00EF9D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D407BD4E1EF83B1B00EF9D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D407BD501EF83B1B00EF9D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644D3ED35B60BF048DDCDAA3 /* Pods-SnapScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SnapScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefbrain.SnapScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D407BD511EF83B1B00EF9D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1992A5F981279EBDE489B815 /* Pods-SnapScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SnapScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefbrain.SnapScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D407BD381EF83B1B00EF9D03 /* Build configuration list for PBXProject "SnapScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D407BD4D1EF83B1B00EF9D03 /* Debug */,
+				D407BD4E1EF83B1B00EF9D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D407BD4F1EF83B1B00EF9D03 /* Build configuration list for PBXNativeTarget "SnapScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D407BD501EF83B1B00EF9D03 /* Debug */,
+				D407BD511EF83B1B00EF9D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D407BD351EF83B1B00EF9D03 /* Project object */;
+}
